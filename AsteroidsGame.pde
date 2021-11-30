@@ -26,6 +26,10 @@ public void draw() {
       bob.setXspeed(0);
       bob.setYspeed(0);
     }
+      if(key == 'r' || key == 'R'){
+      bob.myCenterX = (Math.random()*400);
+      bob.myCenterY = (Math.random()*400);
+    }
   }
  bob.move();
   bob.show();
