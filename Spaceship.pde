@@ -27,7 +27,8 @@ yCorners[9] = 4;
 xCorners[10] = 9;
 yCorners[10] = 1;
 myColor = color(247, 153, 255);
-myCenterX = myCenterY = 200;
+myCenterX = (Math.random()*400);
+myCenterY = (Math.random()*400);
 myPointDirection = 0;
    }
    public void setXspeed(double x){
@@ -37,4 +38,13 @@ myPointDirection = 0;
      myYspeed = y;
    }
 
+public void setXcenter(double x){
+  myCenterX = x;
 }
+public void setYcenter(double y){
+  myCenterY = y;
+}
+public double getXcenter(){return myCenterX;}
+public double getYcenter(){return myCenterY;}
+
+} 
