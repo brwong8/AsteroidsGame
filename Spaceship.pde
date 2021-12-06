@@ -37,6 +37,8 @@ myPointDirection = 0;
    public void setYspeed(double y){
      myYspeed = y;
    }
+public double getXcenter(){return myCenterX;}
+public double getYcenter(){return myCenterY;}
 
 public void setXcenter(double x){
   myCenterX = x;
@@ -44,7 +46,6 @@ public void setXcenter(double x){
 public void setYcenter(double y){
   myCenterY = y;
 }
-public double getXcenter(){return myCenterX;}
-public double getYcenter(){return myCenterY;}
+
 
 } 
