@@ -1,9 +1,9 @@
 star[] stars;
 Spaceship bob;
-ArrayList <Asteroid> hi;
+//ArrayList <Asteroid> hi;
 public void setup(){
   size(400,400);
-  hi = new ArrayList <Asteroid>();
+  //hi = new ArrayList <Asteroid>();
   stars = new star[250];
   for(int i = 0; i < stars.length;i++){
     stars[i] = new star();
