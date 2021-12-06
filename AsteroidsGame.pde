@@ -65,6 +65,7 @@ public void draw() {
  bob.move();
   bob.show();
 hi.show();
+hi.move();
 
 
  
