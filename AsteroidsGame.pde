@@ -1,6 +1,7 @@
+
 star[] stars;
 Spaceship bob;
-
+Asteroid hi;
 int numOfShips = 9;
 Spaceship[] fleet;
 public void setup(){
@@ -17,7 +18,10 @@ public void setup(){
 
   }
   bob = new Spaceship();
-
+  for(int i = 0; i < 15; i++){
+  hi = new Asteroid();
+  }
+}
 public void draw() {
   background(0);
   for(int i = 0; i < stars.length;i++){
@@ -61,8 +65,8 @@ public void draw() {
   }
  bob.move();
   bob.show();
-
-
+hi.show();
+hi.move();
 
  
  
