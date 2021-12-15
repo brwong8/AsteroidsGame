@@ -11,8 +11,8 @@ public void setup(){
   }
 
   stars = new star[250];
-  for(int i = 0; i < stars.length;i++){
-    stars[i] = new star();
+  for(int p = 0; p < stars.length;p++){
+    stars[p] = new star();
 
   }
   bob = new Spaceship();
@@ -20,8 +20,8 @@ public void setup(){
 public void draw() {
   background(0);
    
-  for(int i = 0; i < stars.length;i++){
-  stars[i].show();
+  for(int u = 0; u < stars.length;u++){
+  stars[u].show();
   }
   for(int i = 0; i < hi.size();i++){
   // Asteroid ho = hi.get(i);
