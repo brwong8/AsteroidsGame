@@ -24,10 +24,10 @@ public void draw() {
   stars[i].show();
   }
   for(int i = 0; i < hi.size();i++){
-  // Asteroid ho = hi.get(i);
+  
    hi.get(i).show();
    hi.get(i).move();
-   float d = dist((float)bob.getX(),(float)bob.getY(),(float)hi.get(i).getX(),(float)hi.get(i).getY());
+   int d = dist((int)bob.getX(),(int)bob.getY(),(int)hi.get(i).getX(),(int)hi.get(i).getY());
    if (d < 10){
     hi.remove(i);
    }
