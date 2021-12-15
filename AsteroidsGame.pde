@@ -40,7 +40,7 @@ public void draw() {
     }
     if(key == 'w' || key == 'W'){
       bob.accelerate(0.5);
-      noStroke();
+    //  noStroke();
       
     }
     if(key == 'h' || key == 'H'){
