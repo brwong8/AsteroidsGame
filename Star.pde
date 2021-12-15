@@ -2,9 +2,9 @@ class star {
  private double x, y;
   private int myColor,mySize;
  public star(){
-   x = (Math.random()*400);
-   y = (Math.random()*400);
-   mySize = 5;
+   x = (Math.random()*500);
+   y = (Math.random()*500);
+   mySize = 3;
    myColor = color((int)(Math.random()*255)+230,(int)(Math.random()*255)+230,(int)(Math.random()*255)+230);
  }
 
