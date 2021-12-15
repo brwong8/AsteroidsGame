@@ -16,7 +16,7 @@ public void setup(){
 
   }
   bob = new Spaceship();
-}
+
 public void draw() {
   background(0);
    
