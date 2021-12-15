@@ -1,7 +1,6 @@
 star[] stars;
 Spaceship bob;
-ArrayList <Asteroid> hi
- = new ArrayList <Asteroid>();
+ArrayList <Asteroid> hi = new ArrayList <Asteroid>();
 
 public void setup(){
   size(500,500);
@@ -16,7 +15,7 @@ public void setup(){
 
   }
   bob = new Spaceship();
-
+}
 public void draw() {
   background(0);
    
